@@ -1,4 +1,3 @@
-
 // this comp will create a rounded button that will be used in the navbar
 const LinkButton = ({linkName, link, letter, target}) => {
 
