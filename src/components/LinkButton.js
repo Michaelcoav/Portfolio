@@ -1,6 +1,6 @@
 
 // this comp will create a rounded button that will be used in the navbar
-const LinkButton = ({linkName, link, letter}) => {
+const LinkButton = ({linkName, link, letter, target}) => {
 
     // css prop used to make rounded button
     const roundedButtonProps = {
@@ -17,7 +17,7 @@ const LinkButton = ({linkName, link, letter}) => {
     return (
         <li className="d-inline-flex" style={{marginLeft: ".2em"}}>
             <button style={roundedButtonProps} children={letter}/>
-            <a href={link} style={linkProps}>{linkName}</a>
+            <a href={link} style={linkProps} target={target}>{linkName}</a>
         </li>
     );
 };
