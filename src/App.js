@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './sections/Navbar';
 import MobileMenu from './sections/MobileMenu';
+import About from './sections/About';
 import { useState } from "react";
 
 function App() {
@@ -17,10 +18,12 @@ function App() {
 
   return (
     <div>
-      {/** make the overlay counter here if its false diplay navbar otherwise mobile menu */}
       <Navbar links={links} overlay={overlay} setOverlay={setOverlay} />
 
+      {/** if overlay is true then display mobile menu */}
       {overlay && <MobileMenu links={links} setOverlay={setOverlay} />}
+
+      <About />
     </div>
   );
 }
