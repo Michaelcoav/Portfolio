@@ -20,12 +20,13 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="row">
-                <div className="col d-none d-md-inline-flex justify-content-center align-items-center">
+            <div className="row justify-content-center">
+                <div className="col-2 d-none d-md-inline-flex justify-content-center align-items-center">
                     <img src={sideLogo} alt="Side view of logo" style={{width: "6em", height: "6em"}}/>
                 </div>
-            
-                <div className="col" >
+
+                {/** the col size 6 on md screens and larger */}
+                <div className="col-md-6" >
                     {/** iter thru the list of topics and put in topics comp */}
                     {topicsToAnswers.map((topic) => {
                         return <Topic key={uuidv4} topicName={topic.topicName} answer={topic.answer} />
