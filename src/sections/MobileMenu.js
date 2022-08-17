@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-
+// component will be the mobile menu
 const MobileMenu = ({links, setOverlay}) => {
     // props used to style the overlay used for mobile menu
     const overlayProps = {

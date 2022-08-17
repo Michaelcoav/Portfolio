@@ -2,12 +2,10 @@ import LinkButton from "../components/LinkButton";
 import logo from "../assets/MCVFront.png";
 import { v4 as uuidv4 } from 'uuid';
 
-// this section will be the navbar
+// this component will be the navbar
 const Navbar = ({links, overlay, setOverlay}) => {
-
+    // toggle the mobile menu when the menu button is clicked
     const toggleMobileMenu = () => {
-        console.log(overlay)
-
         // if the overlay value is 0, turn on the overlay
         if (overlay) {
             setOverlay(false);
@@ -31,14 +29,7 @@ const Navbar = ({links, overlay, setOverlay}) => {
         </svg>
     </button>);
 
-    
-
-
-
-    
-
     return (
-
         <div style={{backgroundColor: "#FFF3F3", padding: ".5em 1em"}}>
             <div className="container">
                 {/** Makes the row a flex box and justify content between */}
@@ -57,18 +48,12 @@ const Navbar = ({links, overlay, setOverlay}) => {
                         
                     </div>
 
-
                     {/** Display none on md size screen and larger */}
                     <div className="d-md-none col-3">
+                        {/** If the overlay is true show the x button, show the menu button*/}
                         {overlay ? mobileButtonX : menu}
                     </div>
-                    
                 </div>
-
-
-                {/** Displays the responsive menu if overlay is true 
-                {overlay && <MobileMenu links={links} />}
-                */}
             </div>
         </div>
     );
