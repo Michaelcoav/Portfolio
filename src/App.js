@@ -7,10 +7,11 @@ import { useState } from "react";
 function App() {
   // arr of objects that will be used to create the links
   const links = [
-    {linkName: "Projects", link: "#Projects", letter: "A", target: "_self"},
-    {linkName: "Skills", link: "#Skills", letter: "B", target: "_self"},
-    {linkName: "Github", link: "https://github.com/Michaelcoav", letter: "X", target: "_blank"},
-    {linkName: "Contact", link: "#Contact", letter: "Y", target: "_self"}
+    {linkName: "About", link: "#About", letter: "A", target: "_self"},
+    {linkName: "Projects", link: "#Projects", letter: "B", target: "_self"},
+    {linkName: "Skills", link: "#Skills", letter: "X", target: "_self"},
+    {linkName: "Github", link: "https://github.com/Michaelcoav", letter: "Y", target: "_blank"},
+    // {linkName: "Contact", link: "#Contact", letter: "Y", target: "_self"}
   ];
 
   // used to determine whether the overlay is being used
