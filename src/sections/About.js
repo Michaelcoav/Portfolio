@@ -21,7 +21,7 @@ const About = () => {
             </div>
 
             <div className="row justify-content-center">
-                <div className="col-2 d-none d-md-inline-flex justify-content-center align-items-center">
+                <div className="col-2 d-none d-md-inline-flex justify-content-between align-items-center">
                     <img src={sideLogo} alt="Side view of logo" style={{width: "6em", height: "6em"}}/>
                 </div>
 
