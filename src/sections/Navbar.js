@@ -41,7 +41,7 @@ const Navbar = ({links, overlay, setOverlay}) => {
                     </div>
 
                     {/** Display only when md breakpoint and above */}
-                    <div className="d-none d-md-inline-flex col-lg-6 col-7">
+                    <div className="d-none d-md-inline-flex col-lg-5 col-7">
                         {links.map((currentLink) => {
                             return <LinkButton key={uuidv4} linkName={currentLink.linkName} link={currentLink.link} letter={currentLink.letter} target={currentLink.target}/>
                         })}
