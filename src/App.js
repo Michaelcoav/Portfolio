@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './sections/Navbar';
 import MobileMenu from './sections/MobileMenu';
 import About from './sections/About';
+import Skills from './sections/Skills';
 import { useState } from "react";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       {overlay && <MobileMenu links={links} setOverlay={setOverlay} />}
 
       <About />
+      <Skills />
     </div>
   );
 }
