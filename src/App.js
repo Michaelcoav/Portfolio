@@ -3,14 +3,15 @@ import Navbar from './sections/Navbar';
 import MobileMenu from './sections/MobileMenu';
 import About from './sections/About';
 import Skills from './sections/Skills';
+import Projects from './sections/Projects';
 import { useState } from "react";
 
 function App() {
   // arr of objects that will be used to create the links
   const links = [
     {linkName: "About", link: "#About", letter: "A", target: "_self"},
-    {linkName: "Projects", link: "#Projects", letter: "B", target: "_self"},
-    {linkName: "Skills", link: "#Skills", letter: "X", target: "_self"},
+    {linkName: "Skills", link: "#Skills", letter: "B", target: "_self"},
+    {linkName: "Projects", link: "#Projects", letter: "X", target: "_self"},
     {linkName: "Github", link: "https://github.com/Michaelcoav", letter: "Y", target: "_blank"},
     // {linkName: "Contact", link: "#Contact", letter: "Y", target: "_self"}
   ];
@@ -27,6 +28,7 @@ function App() {
 
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 }

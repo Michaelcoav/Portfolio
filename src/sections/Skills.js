@@ -16,7 +16,7 @@ const Skills = () => {
     ];
     
     return (
-        <div className="container" style={{color: "white"}}>
+        <div id="Skills" className="container" style={{color: "white"}}>
             <div className="col" style={{marginBottom: "1em"}}>
                 <h1 className="text-center">Skills</h1>
             </div>

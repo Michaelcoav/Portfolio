@@ -11,7 +11,7 @@ const About = () => {
     ];
 
     return (
-        <div className="container" style={{color: "white", marginBottom: "1em"}}>
+        <div id="About" className="container" style={{color: "white", marginBottom: "1em"}}>
             <div className="row" style={{margin: "1em 0"}}>
                 <div className="col">
                     <h1 className="text-center">
