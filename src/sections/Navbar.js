@@ -34,6 +34,9 @@ const Navbar = ({links, overlay, setOverlay}) => {
             <div className="container">
                 {/** Makes the row a flex box and justify content between */}
                 <div className="row d-flex justify-content-between">
+                    
+                    
+                    
                     <div className="col-1">
                         <a href="index.html">
                             <img src={logo} alt="MCV Front View Sprite" style={{width: "2em", height: "2em"}} />
@@ -45,7 +48,7 @@ const Navbar = ({links, overlay, setOverlay}) => {
                         {links.map((currentLink) => {
                             return <LinkButton key={uuidv4} linkName={currentLink.linkName} link={currentLink.link} letter={currentLink.letter} target={currentLink.target}/>
                         })}
-                        
+
                     </div>
 
                     {/** Display none on md size screen and larger */}
@@ -53,6 +56,10 @@ const Navbar = ({links, overlay, setOverlay}) => {
                         {/** If the overlay is true show the x button, show the menu button*/}
                         {overlay ? mobileButtonX : menu}
                     </div>
+                    
+                    
+                    
+
                 </div>
             </div>
         </div>
