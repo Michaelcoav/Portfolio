@@ -1,6 +1,7 @@
 import Topic from "../components/Topic";
-import { v4 as uuidv4 } from 'uuid';
 import sideLogo from "../assets/MCVSide.png";
+import { v4 as uuidv4 } from 'uuid';
+
 
 // about section of the page
 const About = () => {
