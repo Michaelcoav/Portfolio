@@ -11,10 +11,12 @@ const Project = ({img, alt, desc}) => {
 
     return (
         <div className="row justify-content-center align-items-center">
-            <div className="col-md-5 col-sm-6 col d-flex justify-content-center">
+            {/** on md size screens and larger display inline block to avoid centering but on smaller screen display flex
+             to center the col and use justify content center*/}
+            <div className="col-md-6 col-sm-6 col d-md-inline-block d-flex justify-content-center">
                 <img src={img} alt={alt} style={projectProps}/>
             </div>
-            <div className="col-md-5 col-12">
+            <div className="col-md-4 col-12">
                 <p className="text-center">{desc}</p>
             </div>
         </div>
