@@ -29,7 +29,7 @@ const About = () => {
                 <div className="col-md-6" >
                     {/** iter thru the list of topics and put in topics comp */}
                     {topicsToAnswers.map((topic) => {
-                        return <Topic key={uuidv4} topicName={topic.topicName} answer={topic.answer} />
+                        return <Topic key={uuidv4()} topicName={topic.topicName} answer={topic.answer} />
                     })}
                 </div>
             </div>

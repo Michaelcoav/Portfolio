@@ -20,7 +20,7 @@ const MobileMenu = ({links, setOverlay}) => {
         <div id="overlay" className="d-flex justify-content-center align-items-center  d-md-none" style={overlayProps}>
             <div className="row justify-content-center" style={{marginBottom: "2em"}}>
                 {links.map((currentLink) => {
-                    return (<div key={uuidv4} className="col-7 text-center" style={{marginTop: "2em"}}>
+                    return (<div key={uuidv4()} className="col-7 text-center" style={{marginTop: "2em"}}>
                         {/** when the link is clicked it will go to the link and close the mobile menu */}
                         <a onClick={() => (setOverlay(false))} href={currentLink.link} target={currentLink.target} style={linkProps}>{currentLink.linkName}</a>
                     </div>);
