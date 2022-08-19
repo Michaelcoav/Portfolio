@@ -24,7 +24,8 @@ const Skills = () => {
             <div className="row d-flex justify-content-center align-items-center">
                 {/** col size is 4 on xl screens and larger the order is 1st only on xl screens and larger */}
                 <div className="col-xl-4 order-2 order-xl-1">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vitae, dolorem nam iusto enim ea quos similique quisquam eius dicta recusandae laborum? Voluptatibus quisquam maxime, voluptatum sed est odit omnis.</p>
+                    <p>I have completed courses at George Mason University on topics such as Data Structures, Object-Oriented Programming, and Low-Level Programming. While I have not learned my front end knowledge from university I have taken the time to learn on my own time through projects.</p>
+                    <p>I have also participated in multiple programs that have helped prepare me to become a software engineer and master my data strucutres and algorithsm such as the Uber Career Prep Program and IBM Accelerate Software Developer Track.</p>
                 </div>
 
                 {/** col size is 7 on xl screens and larger and order is 2nd only on xl screens and larger */}
