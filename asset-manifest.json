@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.31d6cfe0.css",
+    "main.js": "/Portfolio/static/js/main.5109c7d8.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/MCVFront.png": "/Portfolio/static/media/MCVFront.cbf71ad8073ea6faf617.png",
+    "static/media/MCVSide.png": "/Portfolio/static/media/MCVSide.e38f0bc67c21b3204b68.png",
+    "static/media/TicTacToe.png": "/Portfolio/static/media/TicTacToe.f0e6613669e8b584eb76.png",
+    "static/media/Calculator.png": "/Portfolio/static/media/Calculator.f0f63eda433ea81959f6.png",
+    "static/media/AccountManager.png": "/Portfolio/static/media/AccountManager.6a39ffefc9972d072062.png",
+    "index.html": "/Portfolio/index.html",
+    "main.5109c7d8.js.map": "/Portfolio/static/js/main.5109c7d8.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.5109c7d8.js"
+  ]
+}
